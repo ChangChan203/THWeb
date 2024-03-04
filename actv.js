@@ -21,7 +21,7 @@ function questionList(){
 
     var q2HTML = '<div class="qAns">';
     for (var i = 10; i < 20; i ++){
-        q2HTML += 'Câu ' + ( i + 1) + ':<br><select name = "options"><option value = "1">Đáp án 1</option<option value = "2">Đáp án 2</option><option value = "3">Đáp án 3</option><option value = "4">Đáp án 4</option></select>';
+        q2HTML += 'Câu ' + ( i + 1) + ':<br><select name = "options"><option value = "1">Đáp án 1</option><option value = "2">Đáp án 2</option><option value = "3">Đáp án 3</option><option value = "4">Đáp án 4</option></select><br>';
     }
     q2HTML += '</div>';
     ynHTML.innerHTML += q2HTML;
